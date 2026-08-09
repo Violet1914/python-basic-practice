@@ -16,6 +16,7 @@ f.close()
 content = f.read()
 
 str = content.split("\n")
+str = content.split("\n")
 
 print(str, type(str))
 

@@ -8,15 +8,14 @@ for line in f:
     for word in list1:
         print(word)
         if word == "itheima":
-            count += 1
+            count += 1 
 print(count)
 f.close()
 """
 
 content = f.read()
 
-str = content.split("\n")
-str = content.split("\n")
+print(content)
 
 print(str, type(str))
 
